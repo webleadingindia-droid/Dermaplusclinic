@@ -42,7 +42,6 @@ p{color:var(--muted)}
 .header.scrolled{border-color:var(--line);box-shadow:0 8px 30px -20px rgba(0,0,0,.3)}
 .header .container{display:flex;align-items:center;justify-content:space-between;height:78px;gap:20px}
 .logo{display:flex;align-items:center;gap:12px}
-.logo-mark{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--brand),var(--gold));display:grid;place-items:center;color:#fff;font-family:var(--serif);font-weight:700;font-size:1.3rem}
 .logo b{display:block;font-family:var(--serif);font-size:1.3rem;line-height:1;color:var(--ink)}
 .logo small{display:block;font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:4px}
 .nav{display:flex;align-items:center;gap:6px}
