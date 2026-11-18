@@ -16,7 +16,7 @@ Naya locality add karne ke liye `lib/localities.js` me ek object add karein: 20 
 Naya treatment add karne par har locality ke liye ek naya page banega.
 
 ## Zaroori: update karein
-- `NEXT_PUBLIC_SITE_URL` (default https://dermaplusclinicncr.com – domain email se assume kiya hai).
+- `NEXT_PUBLIC_SITE_URL` (default https://dermaplusclinic.vercel.app – domain email se assume kiya hai).
 - Clinic timings: header me Mon–Sat 10–7 + Sunday by appointment hai, purane footer me Sun–Sat 10–8 tha. `lib/clinic.js` me sahi karein.
 - Doctors ki real photos (`app/doctors/page.jsx` abhi initials dikhata hai) aur logo (`components/Logo.jsx`).
 - Booking/contact forms WhatsApp (+91 9910901473) par prefilled message bhejte hain; email/CRM chahiye to API route add karein.
